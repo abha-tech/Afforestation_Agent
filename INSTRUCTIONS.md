@@ -3,6 +3,6 @@
 - Then, `cd` to the current directory.
 - Start the flask app (development server) through terminal as:
 ```
-$ gunicorn SmartAfforestation:app -t 120
-```
+$ gunicorn app:app -t 120
+``` 
 Now, the server is running at http://localhost:8000 or http://127.0.0.1:8000
